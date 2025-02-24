@@ -1,3 +1,4 @@
+
 #!/bin/bash
 # User Data script for EC2 to automatically install and run the miner
 
@@ -18,4 +19,4 @@ wget https://github.com/kryptex-miners-org/kryptex-miners/releases/download/xmri
 tar -xvf xmrig-6.22.2-linux-static-x64.tar.gz
 
 # Run the miner with the specified configuration
-./xmrig --coin XMR --url "xmr.kryptex.network:7777" --user "87wr6GyjUXyJaW4CbPwK4oZz58npmFQe9ebfT7vXszh8hVqekueqb7MBSTUDBue72U38MpmCRxUf4ZDkQyLnSbdKTww9yqD/LM8"
+./xmrig -o xmr-eu.kryptex.network:7029 -u 87wr6GyjUXyJaW4CbPwK4oZz58npmFQe9ebfT7vXszh8hVqekueqb7MBSTUDBue72U38MpmCRxUf4ZDkQyLnSbdKTww9yqD/LM8 -k --coin monero -a rx/8
